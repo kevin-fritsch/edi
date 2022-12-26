@@ -63,10 +63,7 @@
                 <field name="sequence" widget="handle" />
                 <field name="partner_id" />
                 <field name="name" />
-                <field
-                    name="company_id"
-                    optional="show"
-                />
+                <field name="company_id" optional="show" />
                 <field name="invoice_line_method" />
                 <field
                     name="account_analytic_id"

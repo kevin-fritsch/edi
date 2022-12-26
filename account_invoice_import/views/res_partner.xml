@@ -13,7 +13,11 @@
                 name="%(base.action_res_partner_bank_account_form)d"
                 position="after"
             >
-                <div name="invoice_import_configs" colspan="2" groups="account.group_account_invoice,account.group_account_readonly">
+                <div
+                    name="invoice_import_configs"
+                    colspan="2"
+                    groups="account.group_account_invoice,account.group_account_readonly"
+                >
                     <button
                         type="object"
                         class="btn-link"
